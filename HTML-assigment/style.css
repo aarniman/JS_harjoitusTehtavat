@@ -1,0 +1,166 @@
+html {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+body {
+    background-color: lightgray;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+main {
+    background-image: url("https://lh3.googleusercontent.com/3CxZTIv35wbG6iyDzbQPGt-1RKub-TdRuNBDLlLLZBUV9fQUe1WgWjhInyHTFyZjb0ZX_VtZf4GrW1lhmmewp7KvEHLiN6TLKabWkGdBsz6lPHv5y09_8Qru8jHr1NBvkSZ4VO2n7g=w2400");
+    padding: 1rem;
+    overflow: hidden;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    background-color: white;
+    float: left;
+    width: 32%;
+    padding: 1rem;
+    margin-right: 0.5rem;
+    flex: 1;
+
+    color: black;
+    font-family: "Segoe UI";
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.mainText {
+    padding-top: 30%;
+    padding-bottom: 30%;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: sticky;
+    top: 0;
+
+}
+
+.left {
+    display: block;
+    margin-left: 0;
+    margin-right: auto;
+    width: 50%;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.text {
+    text-align: justify;
+}
+
+.contactText {
+    text-align: left;
+    justify-content: left;
+    text-align-all: left;
+    padding-top: 50%;
+    padding-bottom: 50%;
+}
+
+.contacth1{
+    text-align: -moz-left;
+    justify-content: left;
+    display: block;
+}
+
+nav {
+    width: 100%;
+}
+
+header {
+    display: flex;
+    font-size: larger;
+}
+
+article {
+    justify-content: left;
+}
+
+li {
+    float: right;
+}
+
+ul {
+    position: sticky;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+li a {
+    background-color: #565756;
+    color: white;
+    width: 8rem;
+    height: 3.3rem;
+    display: inline-block;
+    text-align: right;
+    text-decoration: none;
+    line-height: 3rem;
+    padding-right: 3rem;
+    font-family: "Segoe UI";
+}
+
+li a:hover {
+    background-color: #2f302f;
+}
+
+h3 {
+    width: 100%;
+    color: black;
+    text-align: center;
+    font-family: "Segoe UI";
+    font-size: 3rem;
+}
+
+h2 {
+    width: 100%;
+    color: black;
+    text-align: left;
+    font-family: "Segoe UI";
+    font-size: 2rem;
+}
+
+h1 {
+    width: 100%;
+    color: black;
+    text-align: center;
+    font-family: "Segoe UI";
+    font-size: 4rem;
+}
+
+p {
+    color: black;
+    font-family: "Segoe UI";
+}
+
+footer {
+
+}
